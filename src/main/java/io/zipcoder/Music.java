@@ -12,7 +12,7 @@ public class Music {
 
     int nextSong = 0;
     int prevSong = 0;
-    int currIndex = 0;
+
 
 
     for (int i = 0; i < playList.length; i++){
@@ -26,9 +26,9 @@ public class Music {
         }
         prevSong++;
 
-        System.out.println("Next song count" + nextSong);
-        System.out.println("Prev song count" + prevSong);
-
+//        System.out.println("Next song count" + nextSong);
+//        System.out.println("Prev song count" + prevSong);
+//        Just to check counts
     }
         if (nextSong < prevSong) {
             return nextSong;
